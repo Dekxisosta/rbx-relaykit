@@ -21,6 +21,8 @@ assert(type(CONFIG.IsInDebugMode) == "boolean", "[FATAL] IsInDebugMode must be a
 assert(type(CONFIG.InitFuncPrefix) == "string", "[FATAL] InitFuncPrefix must be a string")
 assert(type(CONFIG.StartFuncPrefix) == "string", "[FATAL] StartFuncPrefix must be a string")
 
+assert(CONFIG.InitFuncPrefix.lower==CONFIG.StartFuncPrefix.lower, "[FATAL] Prefixes for Init and Start must be different")
+
 local moduleRegistry = {}
 
 -- Load all ModuleScripts in ModuleDirectory
