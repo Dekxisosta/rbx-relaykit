@@ -1,24 +1,13 @@
 {
-  "name": "tstRojo",
+  "name": "rblx-relaykit",
   "tree": {
     "$className": "DataModel",
-
-    "ReplicatedStorage": {
-        "$path": "src/ReplicatedStorage"
-    },
-
-    "ServerScriptService": {
-      "$path": "src/ReplicatedStorage"
-    },
-
+    "ReplicatedStorage": { "$path": "src/ReplicatedStorage" },
+    "ServerScriptService": { "$path": "src/ServerScriptService" },
+    "ServerStorage": { "$path": "src/ServerStorage"},
     "StarterPlayer": {
-      "StarterPlayerScripts": {
-        "$path": "src/StarterPlayerScripts"
-      },
-      "StarterCharacterScripts": {
-        "$path": "src/StarterCharacterScripts"
-      }
-    },
-    "ignoreUnknownInstances": true
+      "StarterPlayerScripts": { "$path": "src/StarterPlayerScripts" },
+      "StarterCharacterScripts": { "$path": "src/StarterCharacterScripts" }
+    }
   }
 }
