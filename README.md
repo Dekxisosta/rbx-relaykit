@@ -1,13 +1,6 @@
-<table>
-  <tr>
-    <td rowspan="2"><img src="./azur-lane-akashi.gif" width="180"></img></td>
-    <td colspan="5"><h1> Explorer Template for Roblox Studio (only script services) </h1></td>
-  </tr>
-  <tr>
-    <td colspan="5">
-      <b>[INFO]</b>
-      &nbspThis is only good for solo projects, renamed to fit Roblox Studio's explorer service names
-    </td>
-  </tr>
-</table>
-Template for when starting out roblox game projects in VSCode. IgnoreUnknownInstances is set to true to avoid potential overwrites of RblxStudio written scripts
+# Relay ServerKit
+![Roblox](https://img.shields.io/badge/Roblox-FF0000?style=flat-square&logo=roblox&logoColor=white)
+![Roblox Studio](https://img.shields.io/badge/Roblox%20Studio-000000?style=flat-square&logo=roblox&logoColor=white)
+![Luau](https://img.shields.io/badge/Luau-02B3E4?style=flat-square&logo=roblox&logoColor=white)
+
+A plug and play mini-framework of independent, drop-in modules for building strict server-authoritative client-server architecture in Roblox game development
