@@ -48,7 +48,7 @@ Both `Init` and `Start` are optional per module — any combination is valid:
  
 | Module | Init() | Start() |
 |--------|--------|---------|
-| Module A | ✓ | ✗ |
+| Module A | ✓ | ✓ |
 | Module B | ✓ | ✗ |
 | Module C | ✗ | ✓ |
-| Module D | ✗ | ✓ |
+| Module D | ✗ | ✗ |
